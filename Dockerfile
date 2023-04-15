@@ -8,5 +8,3 @@ RUN apt update && \
 
 RUN pip install -U openai-whisper
 RUN pip install setuptools-rust
-
-# RUN update-alternatives --install /usr/local/bin/python python /usr/bin/python3 1
